@@ -11,13 +11,19 @@ int main() {
         cin >> opcion;
 
         switch (opcion) {
-            case 1: cargarMarcas(); break;
-            case 2: cargarProductos(); break;
-            case 3: cargarFormasPago(); break;
-            case 4: cargarVentas(); break;
-            case 5: menuReportes(); break;
-            case 0: cout << "Saliendo del programa...\n"; break;
-            default: cout << "Opción inválida\n";
+            case 1: cargarMarcas(); 
+                break;
+            case 2: cargarProductos();
+                break;
+            case 3: cargarFormasPago(); 
+                break;
+            case 4: cargarVentas(); 
+                break;
+            case 5: menuReportes(); 
+                break;
+            case 0: cout << "Saliendo del programa..."; 
+                break;
+            default: cout << "Opción inválida";
         }
     } while (opcion != 0);
 
