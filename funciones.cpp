@@ -77,3 +77,29 @@ void reporteProductosSinVenta() {
 void reporteTop10Clientes() {
     cout << "[REPORT] Top 10 clientes aún no implementado.\n";
 }
+
+
+
+
+void reportePorcentajeFormasPago(string VcodFP[5], int vAcuPorcentajeVenta[5]){
+
+
+    for(int x=0;x<5;x++){
+
+        if(VcodFP[x] == "EF"){
+
+            vAcuPorcentajeVenta[0]++;
+
+        }
+
+
+
+
+    }
+
+
+
+
+
+
+
